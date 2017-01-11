@@ -1,0 +1,3 @@
+dependencies {
+    project ':api/hotspot-sort-api-article'
+}

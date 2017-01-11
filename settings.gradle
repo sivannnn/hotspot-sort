@@ -1,0 +1,5 @@
+rootProject.name = 'hotspot-sort'
+
+include 'api/hotspot-sort-api-article'
+include 'service/hotspot-sort-service-article'
+include 'webapp/hotspot-sort-webapp'

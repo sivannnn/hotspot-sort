@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2109026189/api_hotspot-sort-api-article.iml" filepath="$PROJECT_DIR$/.idea/modules/2109026189/api_hotspot-sort-api-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1202467607/hotspot-sort.iml" filepath="$PROJECT_DIR$/.idea/modules/-1202467607/hotspot-sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotspot-sort-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/hotspot-sort-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1208715667/service_hotspot-sort-service-article.iml" filepath="$PROJECT_DIR$/.idea/modules/-1208715667/service_hotspot-sort-service-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webapp_hotspot-sort-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/webapp_hotspot-sort-webapp.iml" />
+    </modules>
+  </component>
+</project>
