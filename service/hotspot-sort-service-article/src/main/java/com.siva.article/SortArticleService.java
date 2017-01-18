@@ -21,4 +21,9 @@ public class SortArticleService implements ArticleService{
         }
         return null;
     }
+
+    @Override
+    public List<SortArticle> getAll() {
+        return data;
+    }
 }

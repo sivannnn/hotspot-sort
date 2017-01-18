@@ -1,0 +1,17 @@
+apply plugin:"war"
+
+dependencies {
+    compile project(':service/hotspot-sort-service-article')
+}
+
+war{
+    from("$projectDir/src/webapp")
+    from("$projectDir/src/main/resources") {
+        into("WEB-INF/classes")
+    }
+    from("$buildDir/classes/main") {
+        into("WEB-INF/classes")
+    }
+    classpath=classpath - sourceSets.main.output
+    classpath fileTree(dir:libsDir, include:"${project.name}")
+}

@@ -1,3 +1,5 @@
+archivesBaseName = 'hotspot-service'
+
 dependencies {
-    project ':api/hotspot-sort-api-article'
+    compile project(':api/hotspot-sort-api-article')
 }
