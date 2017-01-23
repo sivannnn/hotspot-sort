@@ -1,0 +1,52 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.siva.hotspot : webapp_hotspot-sort-webapp-1.0.war (exploded)">
+    <output-path>$PROJECT_DIR$/webapp/hotspot-sort-webapp/build/libs/webapp/exploded/hotspot-sort-webapp-1.0.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/webapp/hotspot-sort-webapp/build/libs/webapp/exploded/hotspot-sort-webapp-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webapp_hotspot-sort-webapp/web/Web Gradle : webapp_hotspot-sort-webapp-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webapp_hotspot-sort-webapp" />
+          <element id="dir-copy" path="$PROJECT_DIR$/webapp/hotspot-sort-webapp/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-pool2:2.4.2" />
+          <element id="library" level="project" name="Gradle: redis.clients:jedis:2.9.0" />
+          <element id="archive" name="com.siva.hotspot-api_hotspot-sort-api-article-1.0.jar">
+            <element id="module-output" name="api_hotspot-sort-api-article" />
+            <element id="dir-copy" path="$PROJECT_DIR$/api/hotspot-sort-api-article/build/resources/main" />
+          </element>
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Gradle: com.google.guava:guava:20.0" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="archive" name="com.siva.hotspot-service_hotspot-sort-service-article-1.0.jar">
+            <element id="module-output" name="service_hotspot-sort-service-article" />
+            <element id="dir-copy" path="$PROJECT_DIR$/service/hotspot-sort-service-article/build/resources/main" />
+          </element>
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.7.4.RELEASE/840124bcdf81c202e0f79d9921c034b6f59d58dc/spring-data-redis-1.7.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.3.RELEASE/ffad13be3dac6eef7d2418a9de87c2a1592d3033/spring-core-4.3.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.3.RELEASE/cfcd94c9b28d71e81bdfc058fd386c1aa4a61aea/spring-context-4.3.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-keyvalue/1.1.4.RELEASE/aa0603fad6ba139114b6bf935be8bd019e32744/spring-data-keyvalue-1.1.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.8.RELEASE/b64d7823a8dc1876fcacfa79dee77f77bad6be5e/spring-tx-4.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.2.8.RELEASE/b3a147390d8e42397cde19d2ac95e8917852113a/spring-oxm-4.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.2.8.RELEASE/a319ebc06429dacd16abdc8b927b1aad96f29f95/spring-context-support-4.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.3.RELEASE/8e446175b4c8f9bf42abfa11e8194cb729171675/spring-beans-4.3.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.3.RELEASE/5e2f2e998370bc7d93c3b2c51f88eb3f95d3a470/spring-expression-4.3.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.4.RELEASE/956cef39ac422323d78999273988fc7186108f73/spring-data-commons-1.12.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Public/resouce/gradle-3.2.1/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.3.RELEASE/3b6b6d116e96fa42fa9bdc9663946a97fc109120/spring-aop-4.3.3.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

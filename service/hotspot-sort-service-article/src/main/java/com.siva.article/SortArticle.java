@@ -14,4 +14,8 @@ public class SortArticle implements Article{
     public String getId() {
         return this.id;
     }
+
+    public String getTitle() {
+        return this.title;
+    }
 }

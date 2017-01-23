@@ -8,8 +8,14 @@ import java.io.Serializable;
  */
 public interface Article extends Serializable {
     /**
-     * 获取文章编码方法。
+     * 获取文章编码方法.
      * @return the id
      */
     String getId();
+
+    /**
+     * 获取文章头方法.
+     * @return 文章标题
+     */
+    String getTitle();
 }
