@@ -30,6 +30,7 @@ public class ISortArticleDao implements ArticleDao{
                 conn.hMSet(key,boundHashOperations.entries());
                 System.out.println("list api");
                 System.out.println("string api");
+                System.out.println("set api");
                 return "";
             }
         });
