@@ -28,6 +28,8 @@ public class ISortArticleDao implements ArticleDao{
                         redisTemplate.getStringSerializer().serialize(article.getTitle()));
 
                 conn.hMSet(key,boundHashOperations.entries());
+                System.out.println("list api");
+                System.out.println("string api");
                 return "";
             }
         });
